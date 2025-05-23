@@ -1,0 +1,13 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    volumes:
+      - type: bind
+        source: ./
+        target: /srv/jekyll
+    ports:
+      - 4000:4000
+    command: jekyll serve
+    
+  
+      
