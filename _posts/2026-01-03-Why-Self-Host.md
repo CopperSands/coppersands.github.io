@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: Why Self-Hosting?
+title: Why Self-Hosting?
 ---
 
 # Self-Hosting 
