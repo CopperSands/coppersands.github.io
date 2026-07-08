@@ -1,13 +1,15 @@
 services:
   jekyll:
-    image: jekyll/jekyll:latest
+    # This image is specific for arm64 for amd64 image simply remove the arm64 digest after the tag
+    image: jekyll/jekyll:pages@sha256:7ccff77b6d01a234b69a6e37b2064bb84a381e9eddf57e85c30fa6ab28a97a31
     volumes:
       - type: bind
         source: ./
         target: /srv/jekyll
     ports:
       - 4000:4000
-    command: jekyll serve
+      - 35729:35729
+    command: jekyll serve --host 0.0.0.0 --livereload
     
   
       
