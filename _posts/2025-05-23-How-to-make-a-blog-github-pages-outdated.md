@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Create A Blog in GitHub Pages"
+title: "How to Create A Blog in GitHub Pages (Outdated)"
 ---
 # What I Wanted
 I wanted to create a blog to publish some of the things I've be working on. I knew that GitHub has this feature `GitHub Pages` which allows anyone to create and serve static web pages. The best part is that you can use html or markdown with GitHub Pages! I already like working with markdown and html so I decided this would be a great option. 

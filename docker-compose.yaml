@@ -1,5 +1,6 @@
 services:
   jekyll:
+    # This image is specific for arm64 for amd64 image simply remove the arm64 digest after the tag
     image: jekyll/jekyll:pages@sha256:7ccff77b6d01a234b69a6e37b2064bb84a381e9eddf57e85c30fa6ab28a97a31
     volumes:
       - type: bind
